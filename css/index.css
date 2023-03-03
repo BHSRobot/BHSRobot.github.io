@@ -102,11 +102,19 @@
 	width: 50%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #343434;
+	color: #646464;
 	padding-bottom: 15px;
 }
 .noDisplay {
 	display: none;
+}
+.container .left_article h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    color: #5C5C5C;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .container .left_article h3 {
     padding-left: 5%;
