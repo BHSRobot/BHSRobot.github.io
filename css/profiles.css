@@ -109,7 +109,7 @@
 	display: none;
 }
 .container .left_article h3 {
-    padding-left: 60%;
+    padding-left: 55%;
     padding-right: 5%;
     margin-top: 5%;
     text-align: center;
@@ -118,7 +118,7 @@
     text-transform: uppercase;
 }
 .container .left_article p {
-    padding-left: 60%;
+    padding-left: 55%;
     padding-right: 5%;
     text-align: center;
     line-height: 24px;
