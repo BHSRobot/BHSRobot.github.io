@@ -103,6 +103,7 @@
 	float: left;
 	font-family: "Source Sans Pro";
 	color: #646464;
+	padding-left: 30px;
 	padding-bottom: 15px;
 }
 .noDisplay {
@@ -135,7 +136,7 @@
 }
 .right_article {
 	background-color: #FFFFFF;
-	width: 50%;
+	width: 40%;
 	float: left;
 	font-family: "Source Sans Pro";
 	color: #343434;
