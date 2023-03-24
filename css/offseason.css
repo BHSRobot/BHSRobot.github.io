@@ -476,5 +476,12 @@ body {
 	cursor: pointer;
 	opacity: 0.5;
 }
+[data-component="slideshow"] .slide {
+	display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
 #menu {
 }
