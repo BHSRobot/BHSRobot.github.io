@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bloomfield High School Robotics</title>
-	<link rel="icon" type="image/x-icon" href="images/RoboticsLogoTransparent.ico">
+	<title>Bloomfield Robotics</title>
+	<link rel="icon" type="image/x-icon" href="images/logos/RoboticsLogoTransparent.ico">
 	<link href="css/robots.css" rel="stylesheet" type="text/css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,27 +17,34 @@
 <body>
 <div class="container">
   <header>
-    <div class="primary_header">
-      <h1 class="title"><img src="images/RoboticsLogoWithNameAndNumberTransparent.png" width="45" height="40" alt=""> <font size="+30"> Bloomfield High School Robotic (FRC Team 5732)</font> <img src="images/RoboticsLogoWithNameAndNumberTransparent.png" width="45" height="40" alt=""></h1>
-    </div>
-    <nav class="secondary_header" id="menu">
-      <ul>
-        <li><div id="sponsors" onClick="parent.location.href='sponsors.html'"> Sponsors </div></li>
-        <li><div id="robots" onClick="parent.location.href='robots.html'"> Meet the Robots </div></li>
-        <li><div id="season" onClick="parent.location.href='season.html'"> Season Highlights </div></li>
-        <li><div id="offseason" onClick="parent.location.href='offseason.html'"> Off Season Highlights </div></li>
-		<li><div id="profiles" onClick="parent.location.href='profiles.html'"> Team Profiles </div></li>        
-        <li><div id="updates" onClick="parent.location.href='index.html'"> Home </div></li>
-      </ul>
-    </nav>
-  </header>
-	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
+    <!-- Top Navigation Menu -->
+		<div class="topnav">
+ 			<a class="active"><img src="images/logos/RoboticsLogoWithNameAndNumberTransparent.png" alt="" height="50"></a>
+  			<!-- Navigation links (hidden by default) -->
+  			<div id="myLinks">
+    			<a href="parent.location.href='index.html">Home</a>
+    			<a href="parent.location.href='season.html">Season Highlights</a>
+    			<a href="parent.location.href='offseason.html">Off Season Highlights</a>
+				<a href="parent.location.href='robots.html">Meet the Robots</a>
+				<a href="parent.location.href='profiles.html">Team Profiles</a>
+				<a href="parent.location.href='sponsors.html">Sponsors</a>
+  			</div>
+  			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  			<a href="javascript:voi(0);" class="icon" onclick="myFunction()">
+    			<img src="images/menu.png" alt="" height="50px">
+  			</a>
+		</div>
+		<script>
+		/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
-  window.addEventListener('load', addDarkmodeWidget);
-</script>
+} </script>
+  </header>
 	<section>
 		<h2 class="noDisplay">Most Recent</h2>
 		<article class="left_article">
@@ -71,7 +78,7 @@
 		<aside class="right_article"><img src="images/grabby.png" alt=""  height="600"/> </aside>
 	</section>
 	<footer class="secondary_header footer">
-    	<div class="copyright">&copy;2023 - <strong>ROBOTIGERS</strong></div>
+    	<div class="copyright">&copy;2023 - <strong>Bloomfield Robotics</strong></div>
 	</footer>
 </div>
 </body>
